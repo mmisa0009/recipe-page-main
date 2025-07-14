@@ -1,0 +1,106 @@
+@font-face {
+    font-family: 'outfit';
+    src: url('assets/fonts/outfit/Outfit-VariableFont_wght.ttf');
+}
+
+@font-face {
+    font-family: 'young-serif';
+    src: url('assets/fonts/young-serif/YoungSerif-Regular.ttf');
+}
+
+html {
+    background-color: hsl(30, 54%, 90%);
+}
+
+.container {
+    background-color: #ffffff;
+    max-width: 600px;
+    display:block;
+    padding: 1.5em;
+    margin: 3em auto;
+    border-radius: 20px;
+}
+
+body {
+    font-family: 'outfit', sans-serif;
+    color: hsl(30, 10%, 34%);
+    font-weight: 250;
+}
+
+.recipe-image{
+    width:100%;
+    max-width: 600px;
+    display: block;
+    border-radius: 20px;
+    margin: 0.5em auto;
+}
+
+h1 {
+    font-family: 'young-serif', serif;
+    color: hsl(24, 5%, 18%);
+}
+
+h2 {
+    font-family: 'young-serif', serif;
+    color: hsl(14, 45%, 36%);
+    font-weight:200;
+}
+
+h3 {
+    font-family: 'outfit';
+    color: hsl(332, 51%, 32%);
+}
+
+strong {
+    font-weight: 600;
+    color: hsl(30, 10%, 34%);
+}
+
+ul, ol{
+    line-height: 1.6;
+    margin-left: 1.5rem;
+    padding-left: 1rem;
+}
+
+li {
+    margin-bottom: 0.5rem;
+}
+
+hr {
+    border: none;
+    border-bottom: 1px solid hsl(30, 18%, 87%);
+    margin: 0.2rem;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    font-family: 'outfit', sans-serif;
+    font-size: 16px;
+}
+
+td {
+    padding: 0.5rem 0;
+}
+
+table td:last-child {
+    font-weight: 500;
+    color:hsl(14, 45%, 36%);
+}
+
+tr:not(:last-child):nth-child(-n+3) td {
+    border-bottom: 1px solid hsl(30, 18%, 87%);
+}
+    
+.preparation {
+    background-color: hsl(330, 100%, 98%);
+    padding: 0.25rem 1rem;
+    border-radius: 20px;
+}
+
+.attribution {
+    font-size: 12px;
+    text-align: center;
+    color: hsl(30, 10%, 34%);
+}
+    

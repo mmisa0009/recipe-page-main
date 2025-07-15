@@ -19,8 +19,7 @@ This is a solution to the [Recipe page challenge on Frontend Mentor](https://www
 
 ### Screenshot
 
-<img src ="assets/images/screenshot-website-recipe.png">
-
+<img src ="assets/images/screenshot-website-recipe-min.png">
 
 ### Links
 
